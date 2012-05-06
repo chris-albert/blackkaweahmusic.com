@@ -1,0 +1,79 @@
+body {
+    background-image: url("../images/background.jpg");
+}
+
+body * {
+    font-family: helvetica;
+}
+
+a {
+    text-decoration: none;
+}
+
+.main_content_container {
+    background-image: url("../images/yarn.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 700px;
+    height: 700px;
+    margin: auto;
+    position: relative;
+}
+
+.main_content {
+    /*border: 1px solid #adff2f;*/
+    margin: 20px;
+    padding: 10px;
+    height: 650px;
+}
+
+.header {
+    font-size: 90px;
+    font-weight: bold;
+    margin-top: 10px;
+    text-align: center;
+    margin-bottom: -10px;
+}
+
+.navigation_main_container {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.navigation {
+    width: 700px;
+    display: inline-block;
+    margin: 0 auto;
+}
+
+.navigation > span {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 30px;
+}
+
+.navigation > span > a {
+    color: white;
+}
+
+.navigation > span > a.selected {
+    color: #bb2323;
+}
+
+.navigation > span > a:hover {
+    color: #bb2323;
+    cursor: pointer;
+}
+
+p {
+    font-weight: bold;
+    color: white;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: white;
+}

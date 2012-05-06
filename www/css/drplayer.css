@@ -1,0 +1,82 @@
+.fl
+{
+float:left;
+}
+
+.fr 
+{
+float: right;
+}
+.clear { clear: both; line-height: 0px !important; font-size: 0px !important; height: 0 !important }
+a
+{
+   color:   #555555; 
+   font-weight: bold;
+}
+
+b 
+{
+   font-weight: bold;
+}
+
+.duration 
+{
+    font-size:10px;
+    color:#777;
+}
+
+.btn.play 
+{
+    width:16px;
+    height:17px;
+    background-image: url(../../images/play.gif);
+    display: inline-block;
+}
+
+.btn.pause
+{
+    width:16px;
+    height:17px;
+    background-image: url(../../images/pause.gif?2);
+}
+
+.btn.paused
+{
+    width:16px;
+    height:17px;
+    background-image: url(../../images/play.gif?3);
+    display: inline-block;
+}
+
+
+div.player 
+{
+    width:380px;
+    height:14px;
+    margin-top:5px;
+    padding-left:20px;
+}
+
+div.player.inactive
+{
+    margin-top:5px;
+    margin-bottom:0px;
+    border-top: dashed 1px #555555;
+}
+
+.item .title 
+{
+    -vertical-align:middle;
+}
+
+.item .btn 
+{
+    display:inline;
+    float:left; 
+    margin-right:5px;
+    cursor:pointer;
+}
+
+.title {
+    color: white;
+}
